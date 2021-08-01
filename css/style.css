@@ -1,0 +1,245 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+  
+ 
+.sub{
+  height: fit-content;
+}
+
+/* Create four equal columns that sits next to each other */
+.col-3 {
+  /* flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; */
+  float: left;
+  width: 33.33%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.gallerimg{
+  height: 350px;
+  width: 350px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.intro{
+  /* position: relative;
+  margin-top: 100px; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.introh1{
+  display: flex;
+    background-color: lightseagreen;
+    /* width: 25%; */
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 5px;
+    margin-left: 45%;
+    margin-top: -35%;
+    margin-right: 40px;
+    width: 30%;
+    font-size: -webkit-xxx-large;
+    font-family: 'Jost', sans-serif;
+}
+
+ .introp{
+  position: absolute;
+  /* margin-left: 800px; */
+  /* margin-top: 280px; */
+  margin-left: 50%;
+  font-size: 40px;
+  text-decoration: underline;
+  font-family: 'Merienda', cursive;
+}  
+.image{
+  width: 20%;
+    height: 25%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.introimg{
+    height: 700px;
+    float: left;
+    margin-left: 300px;
+}
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+  display: flex;
+}
+
+ul.topnav li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #111;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+.about{
+  position: relative;
+  margin-top: 180px;
+}
+
+.abouth2{
+  position: absolute;
+  display: contents;
+  font-family: system-ui;
+  margin-top: 0;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.aboutp{
+  display: flex;
+    justify-content: center;
+  background-color: aquamarine;
+  font-family: 'Bree Serif', serif;
+/* font-family: 'Kanit', sans-serif; */
+font-family: 'Kaushan Script', cursive;
+box-shadow: 10px 5px 5px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+  .row {display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+.column{
+  /* float: left; */
+  width: 35%;
+  padding: 10px;
+  height: 300px;
+  justify-content: center;
+    text-align: justify;
+}
+
+.aboutbody{
+  /* position: absolute;
+    margin-left: 400px;
+    margin-top: 250px;
+    font-size: 20px; */
+    margin-left: 25px;
+    position: absolute;
+    margin-right: auto;
+    width: 45%;
+}
+
+.aboutimg{
+  /* width: 500px; */
+ width: 100%;
+}
+
+.text{
+  font-size: x-large;
+}
+
+.aboutp1{
+  /* width: 500px; */
+  text-align: justify;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.aboutp2{
+ 
+  text-align: justify;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.contactmeheader{
+  color: aliceblue;
+  font-size: 60px;
+  margin-top: 100px;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: underline ;
+}
+
+.sociallist{
+  margin-top: 90px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.fab{
+  font-size: 45px;
+  width: 45px;
+}
+
+.contactmelinks{
+  margin-top: 150px;
+}
+
+.gmail{
+  color: rgb(104, 124, 168);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.gmail:hover{
+  text-decoration: underline;
+}
+
+.sociallistitem{
+  margin: 20px 20px 20px 20px;
+}
+
+.sociallistlink:hover{
+  opacity: .5;
+
+}
+
